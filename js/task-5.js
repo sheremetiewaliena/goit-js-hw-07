@@ -1,7 +1,7 @@
-const bodyEl = document.querySelector("body");
-const btnEl = document.querySelector(".change-color");
-let colorEl = document.querySelector(".color");
-btnEl.addEventListener("click", (event) => {
+const bodyEl = document.querySelector('body');
+const btnEl = document.querySelector('.change-color');
+let colorEl = document.querySelector('.color');
+btnEl.addEventListener('click', event => {
   bodyEl.style.backgroundColor = getRandomHexColor();
   colorEl.textContent = getRandomHexColor();
   console.log(getRandomHexColor());

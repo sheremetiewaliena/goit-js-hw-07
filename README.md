@@ -1,2 +1,3 @@
 # goit-js-hw-07
-HW-07
+
+removed zero
